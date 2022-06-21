@@ -1,0 +1,81 @@
+*{
+margin: 0;
+padding: 0;
+font-family: 'Noto Sans JP', sans-serif;
+}
+
+body{
+background-image:url(https://raw.githubusercontent.com/shohanalli/noon-images/main/Screenshot_20191024-143611.png) ;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-size: cover;
+
+
+}
+
+.container{
+width: 85%;
+margin: 0 auto;
+overflow: hidden;
+
+
+}
+.fbody{
+ margin: 100px auto; background-color:rgba(172, 255, 47, 0.493);
+ width: 57%;
+ padding: 25px;
+ 
+
+
+}
+.first{
+text-align: center;
+border-bottom: 2px solid rgb(36, 17, 160);
+margin-bottom: 20px;
+
+}
+.label{
+font-size: 22px;
+color:blue;
+
+}
+.input{
+width: 70%;
+height: 30px;
+border-radius: 15px;
+
+
+}
+.input2{
+height: 30px;
+width: 35%;
+border-radius: 15px;
+
+}
+::placeholder{
+ padding-left: 10px;
+ font-size: 15px;
+
+}
+.input2:focus{
+outline: 2px solid red
+
+}
+.input:focus{
+
+    outline: 2px solid red; 
+}
+.input[type=date]{
+    padding-left: 10px;
+
+}
+.gn{
+    color: red;
+}
+select{
+
+    color: fuchsia;
+}
+.last{
+    color:gold;
+}
